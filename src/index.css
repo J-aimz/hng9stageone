@@ -7,6 +7,108 @@ body,
 }
 
 html{
-  font-size: 1rem;
+  font-size: 14px;
 }
+
+/*
+    typogrphy
+*/
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.body{
+  padding: 4em 2em;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile__img{
+  width: 7rem;
+  border-radius: 50%;
+  margin-bottom: 1.7em;
+}
+
+#slack{
+  display: none;
+}
+
+.links-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1.7em 0;
+}
+
+.links{
+  padding: 1em;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #101828;
+  background-color:  #EAECF0;
+  border: 1px solid  #EAECF0;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logo-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75em;
+  padding: 1.7em 0;
+
+}
+
+.logo-con img{
+  width: 1.5rem;
+}
+
+hr{
+  border: 1px solid rgb(227, 222, 222);
+  margin-top: 2em;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 1em;
+  padding-top: 3em;
+}
+
+.footer img{
+  width: 8rem;
+  white-space: nowrap;
+}
+
+.footer h5{
+  color: #667085;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1020px) {
+  .body{
+    padding: 4em 8em;
+  }
+
+  .footer{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 
